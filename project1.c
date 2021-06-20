@@ -7,14 +7,15 @@ int main()
     int num, guess, nguesses = 1;
     srand(time(0));
     num = rand()%100 + 1;
-  //  printf("The number is %d", num);
+  printf("The number is %d", num);
+
     do
     {
         printf("Guess number between 1 to 100 = ");
         scanf("%d", &guess);
         if(guess<num)
         {
-            printf("Your number is lower\n");
+           printf("Your number is lower\n");
         }
         else if(guess>num)
         {
@@ -22,6 +23,7 @@ int main()
         }
         else
         {
+              printf("for demo");
             printf("Right! \nYou guessed in %d attempts \n", nguesses);
         }
         nguesses++;
