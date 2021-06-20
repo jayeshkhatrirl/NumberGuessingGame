@@ -16,6 +16,7 @@ int main()
         if(guess<num)
         {
            printf("Your number is lodwer\n");
+           printf("Your number is jayesh\n");
         }
         else if(guess>num)
         {
