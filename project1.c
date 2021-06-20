@@ -15,7 +15,7 @@ int main()
         scanf("%d", &guess);
         if(guess<num)
         {
-           printf("Your number is lower\n");
+           printf("Your number is jayesh\n");
         }
         else if(guess>num)
         {
