@@ -8,6 +8,7 @@ int main()
     srand(time(0));
     num = rand()%100 + 1;
     // printf("Hi!\n");
+    printf("Hello!\n");
     printf("The number is : %d", num);
 
     do
